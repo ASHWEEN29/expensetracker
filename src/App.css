@@ -1,0 +1,157 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h1, h2 {
+  color: #444;
+  text-align: center;
+}
+
+/* Button Styles */
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.add-expense-button {
+  background-color: #28a745;
+}
+
+.add-expense-button:hover {
+  background-color: #218838;
+}
+
+.pdf-button {
+  background-color: #17a2b8;
+}
+
+.pdf-button:hover {
+  background-color: #138496;
+}
+
+.form-button {
+  background-color: #007bff;
+}
+
+.form-button:hover {
+  background-color: #0056b3;
+}
+
+.edit-button {
+  background-color: #ffc107;
+}
+
+.edit-button:hover {
+  background-color: #e0a800;
+}
+
+.delete-button {
+  background-color: #dc3545;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+/* Form Styles */
+.form-container, .budget-form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.form-group input, .form-group select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Expense List Styles */
+.expense-list {
+  margin-top: 20px;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 10px;
+  margin: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.expense-item p {
+  margin: 0;
+  color: #555;
+}
+
+.expense-item-buttons {
+  display: flex;
+}
+
+/* Expense Summary Styles */
+.expense-summary {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Budget Progress Styles */
+.budget-progress-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #e9ecef;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.progress-bar-fill {
+  height: 20px;
+  background-color: #007bff;
+}
+
+/* Pie Chart Styles */
+.pie-chart-container {
+  margin-top: 20px;
+  text-align: center;
+}
